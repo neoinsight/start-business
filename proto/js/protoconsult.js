@@ -18,7 +18,7 @@ $(document).ready(function () {
       if ($(event.target).parent("details").has("textarea").length) {
        
       } else {
-        $(event.target).parent("details").append('<div><textarea class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"/><button class="btn btn-default remove_field" type="button">Remove this comment</button><button class="btn btn-default" type="button">Submit all comments</button></div>'); //add input box
+        $(event.target).parent("details").append('<div><textarea data-autoresize class="form-control full-width" rows="3"  placeholder="Please enter your feedback" name="mytext[]"/><button class="btn btn-default remove_field" type="button">Remove this comment</button><button class="btn btn-default" type="button">Submit all comments</button></div>'); //add input box
         $(event.target).parent('details').addClass("commentpresent");
         
         $(event.target).parent('details').on("click", ".remove_field", function(e) { //user click on remove text
@@ -27,13 +27,14 @@ $(document).ready(function () {
 			} else {
 				e.cancelBubble = true;
 			}
-          alert("will remove " +  $(e.target ).parent("details").nodeName);
+          alert("will remove " +  $(e.target ).nodeName +  $(e.target ).parent("details").nodeName);
           
 //if (window.confirm("Do you really want to delete this comment?")) {
        //alert("will remove " +  e.target.nodeName);
-         $(e.target ).parent("details").removeAttribute("open");
-          $( e.target ).parent("details").removeClass("commentpresent");
-          $( e.target ).parent("div").remove();
+         $(e.target ).closest("details").removeAttr("open");
+          $( e.target ).closest("details").removeClass("commentpresent");
+         
+          $( e.target ).closest("div").remove();
          
 //}
          
