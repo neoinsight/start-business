@@ -16,12 +16,17 @@ $(document).ready(function () {
       //console.log("btn cont1 event", event)
       //alert('Container 1 button clicked ('+event.target.innerText+')');
       if ($(event.target).parent("details").has("textarea").length) {
-        //do something
+       
       } else {
-        $(event.target).parent("details").append('<div><textarea class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"/><a href="#" class="remove_field">Remove</a></div>'); //add input box
+        $(event.target).parent("details").append('<div><textarea class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"/><button class="btn btn-default remove_field" type="button">Remove this comment</button><button class="btn btn-default" type="button">Submit all comments</button></div>'); //add input box
         $(event.target).parent('details').addClass("commentpresent");
+        
         $(event.target).parent('details').on("click", ".remove_field", function(e) { //user click on remove text
-          //e.preventDefault();
+          if ( e.stopPropagation ) {
+				e.stopImmediatePropagation();
+			} else {
+				e.cancelBubble = true;
+			}
           alert("will remove " +  $(e.target ).parent("details").nodeName);
           
 //if (window.confirm("Do you really want to delete this comment?")) {

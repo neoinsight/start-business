@@ -5,10 +5,21 @@
  * v4.0.23-development - 2016-10-18
  *
  */
-.addcomment {
+details.addcomment summary{
   background-color: lightblue;
 }
 
 .commentpresent {
+  background-color: lightyellow  !important;
+}
+details.commentpresent summary {
+    color: #0535d2;
+    background-color: lightyellow  !important;
+    text-decoration: underline
+}
+#bottom-bar header {
   background-color: lightyellow;
+}
+#bottom-bar  button.mfp-close {
+	color: red;
 }
