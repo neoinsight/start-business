@@ -14,35 +14,36 @@ $(document).ready(function () {
     
     $(add_button).on("click", "summary", function(event) {
       //console.log("btn cont1 event", event)
-      
-      if ($(event.target).parent("details").has("textarea").length) {
+      var sel = $(event.target).parent("details")
+      if (sel.has("textarea").length) {
 	      
-	      	if ((typeof $(event.target).parent("details").attr("open")) != 'undefined') {
+	      	if ((typeof sel.attr("open")) != 'undefined') {
 		      	
 		      	var ctext = $(event.target ).find("textarea")
 		      	
 	      	alert('detail open '+$(ctext ).val() );
        	if ( $(event.target ).find("textarea").val() == undefined) {
 	      // 	alert('Removing textarea for '+event.target.innerText);
-	                  $( event.target ).closest("details").removeClass("commentpresent");
+	                  sel.removeClass("commentpresent");
            $( event.target ).next("div").remove();
          }
          }
       } else {
 	     // alert('Adding text for '+ event.target.innerText);
-        $(event.target).parent("details").append('<div><textarea form="commentsubmission" class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"></textarea><button class="btn btn-default close_field" type="button">Close</button><a href="#formsummary" >Submit all comments</a></div>'); //add input box
-        $(event.target).parent('details').addClass("commentpresent");
+	     
+        sel.append('<div><textarea form="commentsubmission" class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"></textarea><button class="btn btn-default close_field" type="button">Close</button><a href="#formsummary" >Submit all comments</a></div>'); //add input box
+        sel.addClass("commentpresent");
         
         
       }
     });
 	$(add_button).on("click", ".close_field", function(e) { //user click on remove text
           e.preventDefault();
-      
-         $(e.target ).closest("details").removeAttr("open");
+		  var sel = $(e.target).parent("details")
+         sel.removeAttr("open");
          if ($(e.target ).prev("textarea").val() == '') {
-	       $(event.target).parent("details").off("click", ".close_field" );
-           $( e.target ).closest("details").removeClass("commentpresent");
+	       
+           sel.removeClass("commentpresent");
            $( e.target ).closest("div").remove();
          }
 
