@@ -23,3 +23,14 @@ details.commentpresent summary {
 #bottom-bar  button.mfp-close {
 	color: red;
 }
+.modal-content {
+    background: #fff
+}
+.modal-header {
+    color: #fff
+}
+ .wb-panel-r {
+    height: auto;
+    max-width: 90%;
+    top: 0
+}
