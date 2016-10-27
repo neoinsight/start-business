@@ -18,11 +18,13 @@ $(document).ready(function () {
       if ($(event.target).parent("details").has("textarea").length) {
 	      
 	      	if ((typeof $(event.target).parent("details").attr("open")) != 'undefined') {
-	      // 	alert('detail open '+$(event.target ).find("textarea").val() );
+		      	
+		      	var ctext = $(event.target ).find("textarea")
+		      	
+	      	alert('detail open '+$(ctext ).val() );
        	if ( $(event.target ).find("textarea").val() == undefined) {
 	      // 	alert('Removing textarea for '+event.target.innerText);
-	       $(event.target).parent("details").off("click", ".close_field" );
-           $( event.target ).closest("details").removeClass("commentpresent");
+	                  $( event.target ).closest("details").removeClass("commentpresent");
            $( event.target ).next("div").remove();
          }
          }
@@ -31,7 +33,10 @@ $(document).ready(function () {
         $(event.target).parent("details").append('<div><textarea form="commentsubmission" class="form-control full-width" rows="5"  placeholder="Please enter your feedback" name="mytext[]"></textarea><button class="btn btn-default close_field" type="button">Close</button><a href="#formsummary" >Submit all comments</a></div>'); //add input box
         $(event.target).parent('details').addClass("commentpresent");
         
-        $(event.target).parent("details").on("click", ".close_field", function(e) { //user click on remove text
+        
+      }
+    });
+	$(add_button).on("click", ".close_field", function(e) { //user click on remove text
           e.preventDefault();
       
          $(e.target ).closest("details").removeAttr("open");
@@ -42,11 +47,8 @@ $(document).ready(function () {
          }
 
         });
-      }
-    });
-
   }
 
-  init_multifield(10, '.input_fields_wrap', '.addcomment', 'user_music[]');
+  init_multifield(10, '.input_fields_wrap', '#commentsubmission', 'user_music[]');
   // alert("All is well");
 });
