@@ -25,7 +25,8 @@ $(document).ready(function () {
           e.preventDefault();
       
          $(e.target ).closest("details").removeAttr("open");
-         if ($(e.target ).prev("textarea").text().length == 0) {
+         if ($(e.target ).prev("textarea").val() == '') {
+	       $(event.target).parent("details").off("click", ".close_field" );
            $( e.target ).closest("details").removeClass("commentpresent");
            $( e.target ).closest("div").remove();
          }
