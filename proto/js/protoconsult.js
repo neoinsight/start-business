@@ -19,10 +19,10 @@ $(document).ready(function () {
 	      
 	      	if ((typeof sel.attr("open")) != 'undefined') {
 		      	
-		      	var ctext = $(event.target ).find("textarea")
+		      	//var ctext = $(event.target ).find("textarea")
 		      	
-	      	alert('detail open '+$(ctext ).val() );
-       	if ( $(event.target ).find("textarea").val() == undefined) {
+	      	//alert('detail open '+$(ctext ).val() );
+       	if ( $(event.target ).find("textarea").val() == '') {
 	      // 	alert('Removing textarea for '+event.target.innerText);
 	                  sel.removeClass("commentpresent");
            $( event.target ).next("div").remove();
