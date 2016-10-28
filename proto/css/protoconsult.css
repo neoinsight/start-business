@@ -17,6 +17,9 @@ details.commentpresent summary {
     background-color: lightyellow  !important;
     text-decoration: underline
 }
+details.commentpresent a {
+    margin-left: 3em
+}
 #bottom-bar header {
   background-color: lightyellow;
 }
