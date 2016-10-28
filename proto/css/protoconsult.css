@@ -20,6 +20,9 @@ details.commentpresent summary {
 details.commentpresent a {
     margin-left: 3em
 }
+details.commentpresent button {
+    margin-top: 8px
+    }
 #bottom-bar header {
   background-color: lightyellow;
 }
