@@ -1,0 +1,41 @@
+S+R for pages copied from Canada.ca:
+
+src="/etc/designs/canada/wet-boew
+src="../../wet-boew
+
+href="/etc/designs
+href="https://www.canada.ca/etc/designs
+
+/content/canadasite/assets/
+https://www.canada.ca/content/canadasite/assets/
+
+/content/dam/
+https://www.canada.ca/content/dam/
+
+data="/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"
+data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"
+
+entire nav (menu):
+<nav role="navigation" id="wb-sm" data-ajax-replace="../ajax/sitemenu2-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<div class="container nvbar">
+<h2>Topics menu</h2>
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+<li><a href="https://travel.gc.ca/">Travel</a></li>
+<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+<li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+<li><a href="https://www.canada.ca/en/services.html">More services</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<div class="wb-share" data-wb-share="{&#34;lnkClass&#34;: &#34;btn btn-default btn-block&#34;}"></div>
+
+<div class="col-sm-3 mrgn-tp-sm pull-right">
+<div class="wb-share wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default btn-block&quot;}" id="wb-auto-4"><section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def"><header class="modal-header"><h2 class="modal-title">Share this page</h2></header><div class="modal-body"><ul class="list-unstyled colcount-xs-2"><li><a href="https://bitly.com/a/bitmarklet?u=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html" class="shr-lnk bitly btn btn-default gl-share" target="_blank">bitly</a></li><li><a href="http://www.blogger.com/blog_this.pyra?t=&amp;u=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;n=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk blogger btn btn-default gl-share" target="_blank">Blogger</a></li><li><a href="http://delicious.com/post?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk delicious btn btn-default gl-share" target="_blank">Delicious</a></li><li><a href="http://digg.com/submit?phase=2&amp;url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk digg btn btn-default gl-share" target="_blank">Digg</a></li><li><a href="http://www.diigo.com/post?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk diigo btn btn-default gl-share" target="_blank">Diigo</a></li><li><a href="mailto:?to=&amp;subject=Before%20starting%20your%20business%20-%20Canada.ca&amp;body=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html%0A" class="shr-lnk email btn btn-default gl-share" target="_blank">Email</a></li><li><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;t=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk facebook btn btn-default gl-share" target="_blank">Facebook</a></li><li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Before%20starting%20your%20business%20-%20Canada.ca&amp;body=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html%0A" class="shr-lnk gmail btn btn-default gl-share" target="_blank">Gmail</a></li><li><a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;hl=en" class="shr-lnk googleplus btn btn-default gl-share" target="_blank">Google+</a></li><li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default gl-share" target="_blank">LinkedIn®</a></li><li><a href="http://www.myspace.com/Modules/PostTo/Pages/?u=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;t=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk myspace btn btn-default gl-share" target="_blank">MySpace</a></li><li><a href="http://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;media=&amp;description=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default gl-share" target="_blank">Pinterest</a></li><li><a href="http://reddit.com/submit?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk reddit btn btn-default gl-share" target="_blank">reddit</a></li><li><a href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;title=Before%20starting%20your%20business%20-%20Canada.ca" class="shr-lnk stumbleupon btn btn-default gl-share" target="_blank">StumbleUpon</a></li><li><a href="http://www.tumblr.com/share/link?url=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html&amp;name=Before%20starting%20your%20business%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default gl-share" target="_blank">tumblr</a></li><li><a href="http://twitter.com/home?status=Before%20starting%20your%20business%20-%20Canada.ca%20https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html" class="shr-lnk twitter btn btn-default gl-share" target="_blank">Twitter</a></li><li><a href="http://compose.mail.yahoo.com/?to=&amp;subject=Before%20starting%20your%20business%20-%20Canada.ca&amp;body=https%3A%2F%2Fwww.canada.ca%2Fen%2Fservices%2Fbusiness%2Fstart%2Fbefore.html%0A" class="shr-lnk yahoomail btn btn-default gl-share" target="_blank">Yahoo! Mail</a></li></ul><p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p><div class="clearfix"></div></div></section><a href="#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default btn-block wb-lbx-inited wb-init" id="wb-auto-5"><span class="glyphicon glyphicon-share"></span>Share this page</a></div>
