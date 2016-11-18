@@ -110,11 +110,11 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
     
 
 <main role="main" property="mainContentOfPage" class="container">
-<h1 property="name" id="wb-cont">Open a GST/HST account</h1>
+<h1 property="name" id="wb-cont">Register for a GST/HST account</h1>
 <p class="gc-byline"><strong>From <a href="http://www.cra-arc.gc.caen/revenue-agency.html">Canada Revenue Agency</a></strong></p>
 <div class="row">
 <div class="col-md-8">
-<p>Who should register, how to register.</p>
+<p>(TBD).</p>
 <section>
 <h2>Find out if you need a GST/HST account</h2>
 <p>Use the following sections to determine if you have to register.</p>
@@ -154,7 +154,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			<td>You are <strong>not</strong> a small supplier. You cease to be a small supplier on the supply that made you&#160;exceed&#160;$30,000.</td>
 			<td>
 			<p>You start charging the GST/HST on the supply that made you&#160;exceed $30,000.</p>
-			<p>You must register within&#160;<strong>29 days </strong>from the day you cease to be a small supplier.</p>
+			<p>You must <a href="#register">register</a> within&#160;<strong>29 days </strong>from the day you cease to be a small supplier.</p>
 			</td>
 		</tr>
 		<tr>
@@ -164,7 +164,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			<td>You are <strong>no longer&#160;</strong>a small supplier at the<strong> </strong>end of the&#160;month <strong>following the quarter</strong> in which you exceed $30,000.</td>
 			<td>
 			<p>You start charging the GST/HST at the beginning of the month after you cease to be a small supplier.&#160;</p>
-			<p>You must register within&#160;<strong>29 days </strong>after you&#160;<strong>make a sale </strong>other than as a small supplier.</p>
+			<p>You must <a href="#register">register</a> within&#160;<strong>29 days </strong>after you&#160;<strong>make a sale </strong>other than as a small supplier.</p>
 			</td>
 		</tr>
 	</tbody>
@@ -1147,9 +1147,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </ul>
 <p>For more information, see <a href="http://www.cra-arc.gc.catx/bsnss/tpcs/gst-tps/bspsbch/chngs/menu-eng.html">Making changes to a GST/HST account</a>.</p>
 </section>
+<h2 id="register">How to register</h2>
 <p><a class="btn btn-primary" href="http://www.cra-arc.gc.ca/tx/bsnss/tpcs/bn-ne/bro-ide/menu-eng.html">Register online</a></p>
 <section class="gc-cntct-lst">
-<h2>[Other ways to apply]</h2>
 <dl class="dl-horizontal">
 <dt>By phone:</dt>
 <dd>1-800-959-5525</dd>
