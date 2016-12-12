@@ -1,7 +1,7 @@
-S+R for pages copied from Canada.ca:
+﻿S+R for pages copied from Canada.ca:
 
 src="/etc/designs/canada/wet-boew
-src="../../wet-boew
+src="https://neoinsight.github.io/start-business/wet-boew/"
 
 href="/etc/designs
 href="https://www.canada.ca/etc/designs
