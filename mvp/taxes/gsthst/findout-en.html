@@ -132,65 +132,110 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			<ul>
 				<li><a href="findout-hasaccount-en.html">yes</a></li> <!--RESULT-->
 				<li>no
-					<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"checkbox"}'>
-						<p>Check all of the following goods or services that you sell or provide.</br>
-						<p style="font-size:80%; padding-left:10px;font-weight:normal;">Some goods and services are exempt from the GST/HST.</p> <!--not appearing-->
-						</p>
+					<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"checkbox", "reset": { "action": "addClass", "source":".toggle1,.toggle2", "class": "hidden" }}'>
+						<div class="wb-fieldflow-header">	
+							<p class="wb-fieldflow-label">Check all of the following goods or services that you sell or provide.</p>
+							<p><small>Some goods and services are exempt from the GST/HST.</small></p> <!--not appearing-->
+                        </div>
 						<ul>
-							<!--If continue without 'none of the above', then RESULT should be "findout-exempt-en.html"-->
-												
-							<li>sales of housing that werre last used by an individual as a place of residence</li>
-							<li>long-term rentals of residential accommodation (of one month or more) and residential condominium fees</li>
-							<li>most health, medical, and dental services performed by licensed physicians or dentists for medical reasons</li>
-							<li>child care services, where the primary purpose is to provide care and supervision to children 14 years of age or under for periods of less than 24 hours per day</li>
-							<li>most domestic ferry services</li>
-							<li>legal aid services</li>
-							<li>many educational services such as: a) courses supplied by a vocational school leading to a certificate or a diploma that certifies the ability of individuals to practice or perform a trade or a vocation and b) tutoring services made to an individual in a course that follows a curriculum designated by a school authority</li>
-							<li>music lessons</li>
-							<li>most services provided by financial institutions such as lending money or operating deposit accounts</li>
-							<li>the issuance of insurance policies by an insurer and the arranging for the issuance of insurance policies by insurance agents</li>
-							<li>most property and services provided by charities and public institutions</li>
-							<li>financial services (such as loan or mortgage)</li>
-							<li>certain property and services provided by governments, non-profit organizations, municipalities, and other public service bodies including municipal transit services and standard residential services such as water distribution</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle1", "class": "hidden", "live": true }'>sales of housing that werre last used by an individual as a place of residence</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle2", "class": "hidden", "live": true }'>long-term rentals of residential accommodation (of one month or more) and residential condominium fees</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle3", "class": "hidden", "live": true }'>most health, medical, and dental services performed by licensed physicians or dentists for medical reasons</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle4", "class": "hidden", "live": true }'>child care services, where the primary purpose is to provide care and supervision to children 14 years of age or under for periods of less than 24 hours per day</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle5", "class": "hidden", "live": true }'>most domestic ferry services</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle6", "class": "hidden", "live": true }'>legal aid services</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle7", "class": "hidden", "live": true }'>many educational services such as: a) courses supplied by a vocational school leading to a certificate or a diploma that certifies the ability of individuals to practice or perform a trade or a vocation and b) tutoring services made to an individual in a course that follows a curriculum designated by a school authority</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle8", "class": "hidden", "live": true }'>music lessons</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle9", "class": "hidden", "live": true }'>most services provided by financial institutions such as lending money or operating deposit accounts</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle10", "class": "hidden", "live": true }'>the issuance of insurance policies by an insurer and the arranging for the issuance of insurance policies by insurance agents</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle11", "class": "hidden", "live": true }'>most property and services provided by charities and public institutions</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle12", "class": "hidden", "live": true }'>financial services (such as loan or mortgage)</li>
+							<li data-wb-fieldflow='{ "action": "removeClass", "source":".toggle13", "class": "hidden", "live": true }'>certain property and services provided by governments, non-profit organizations, municipalities, and other public service bodies including municipal transit services and standard residential services such as water distribution</li>
 							<li>other goods and services
 								<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
 									<p>Are you or your organisation one of the following?</p>
 									<ul>
 										<li>registered charity
 											<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
-												<p>Do you expect to pass $50,000 CND in total sales or revenue within the next 3 to 12 months?</br>
-												<span style="font-size:80%; padding-left:10px;">Do not include revenue from non-taxable supplies:</span></br> <!--not appearing-->
-												<!--ajax answers from Q2 for piping?-->
-												</p>
+												<div class="wb-fieldflow-header">	
+													<p class="wb-fieldflow-label">Do you expect to pass $50,000 CND in total sales or revenue within the next 3 to 12 months?</p>
+													<small>
+														<p>Do not include revenue from non-taxable supplies:</p>
+														<p class="toggle1 hidden">-municipal transit services</p> <!--not appearing-->
+														<p class="toggle2 hidden">-standard residential services (ex:water distribution)</p> <!--not appearing-->
+														<p class="toggle3 hidden">-most health, medical, and dental services performed by licensed physicians or dentists for medical reasons</p>
+														<p class="toggle4 hidden">-child care services, where the primary purpose is to provide care and supervision to children 14 years of age or under for periods of less than 24 hours per day</p>
+														<p class="toggle5 hidden">-most domestic ferry services</p>
+														<p class="toggle6 hidden">-legal aid services</p>
+														<p class="toggle7 hidden">-many educational services such as: a) courses supplied by a vocational school leading to a certificate or a diploma that certifies the ability of individuals to practice or perform a trade or a vocation and b) tutoring services made to an individual in a course that follows a curriculum designated by a school authority</p>
+														<p class="toggle8 hidden">-music lessons</p>
+														<p class="toggle9 hidden">-most services provided by financial institutions such as lending money or operating deposit accounts</p>
+														<p class="toggle10 hidden">-the issuance of insurance policies by an insurer and the arranging for the issuance of insurance policies by insurance agents</p>
+														<p class="toggle11 hidden">-most property and services provided by charities and public institutions</p>
+														<p class="toggle12 hidden">-financial services (such as loan or mortgage)</p>
+														<p class="toggle13 hidden">-certain property and services provided by governments, non-profit organizations, municipalities, and other public service bodies including municipal transit services and standard residential services such as water distribution</p>
+													</small>
+												</div>
 												<ul>
 													<li><a href="findout-charityover-en.html">yes</a></li> <!--RESULT-->
-													<li><a href="findout-charityunder-en.html">yes</a></li> <!--RESULT-->
+													<li><a href="findout-charityunder-en.html">no</a></li> <!--RESULT-->
 												</ul>
 											</div>
 										</li>
 										<li>public service body (school authorities, public colleges, universities, hospital authorities or municipalities)
 											<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
-												<p>Do you expect to pass $50,000 CND in total sales or revenue within the next 3 to 12 months?</p>
-												<p style="font-size:80%; padding-left:10px;">Do not include revenue from non-taxable supplies:</p> <!--not appearing-->
-												<!--ajax answers from Q2 for piping?-->
-												<p>- municipal transit services</p> <!--not appearing-->
-												<p>- standard residential services (ex:water distribution)</p> <!--not appearing-->
+												<div class="wb-fieldflow-header">	
+													<p class="wb-fieldflow-label">Do you expect to pass $50,000 CND in total sales or revenue within the next 3 to 12 months?</p>
+														<small>
+														<p>Do not include revenue from non-taxable supplies:</p>
+														<p class="toggle1 hidden">municipal transit services</p> <!--not appearing-->
+														<p class="toggle2 hidden">standard residential services (ex:water distribution)</p> <!--not appearing-->
+														<p class="toggle3 hidden">most health, medical, and dental services performed by licensed physicians or dentists for medical reasons</p>
+														<p class="toggle4 hidden">child care services, where the primary purpose is to provide care and supervision to children 14 years of age or under for periods of less than 24 hours per day</p>
+														<p class="toggle5 hidden">most domestic ferry services</p>
+														<p class="toggle6 hidden">legal aid services</p>
+														<p class="toggle7 hidden">many educational services such as: a) courses supplied by a vocational school leading to a certificate or a diploma that certifies the ability of individuals to practice or perform a trade or a vocation and b) tutoring services made to an individual in a course that follows a curriculum designated by a school authority</p>
+														<p class="toggle8 hidden">music lessons</p>
+														<p class="toggle9 hidden">most services provided by financial institutions such as lending money or operating deposit accounts</p>
+														<p class="toggle10 hidden">the issuance of insurance policies by an insurer and the arranging for the issuance of insurance policies by insurance agents</p>
+														<p class="toggle11 hidden">most property and services provided by charities and public institutions</p>
+														<p class="toggle12 hidden">financial services (such as loan or mortgage)</p>
+														<p class="toggle13 hidden">certain property and services provided by governments, non-profit organizations, municipalities, and other public service bodies including municipal transit services and standard residential services such as water distribution</p>
+														<p>municipal transit services</p> <!--not appearing-->
+														<p>standard residential services (ex:water distribution)</p>
+													</small>
+												</div>
 												<ul>
 													<li><a href="findout-institutionover-en.html">yes</a></li> <!--RESULT-->
-													<li><a href="findout-institutionover-en.html">yes</a></li> <!--RESULT-->
+													<li><a href="findout-institutionunder-en.html">no</a></li> <!--RESULT-->
 												</ul>
 											</div>
 										</li>
-										<li><a href="findout-taxi-en.html">taxi or limousine driver</li>
+										<li><a href="findout-taxi-en.html">taxi or limousine driver</a></li>
 										<li>none of the above
 											<div class="wb-fieldflow-sub" data-wb-fieldflow='{"renderas":"radio"}'>
-												<p>Do you expect to pass $30,000 CND in total sales or revenue within the next 3 to 12 months?
-												<span style="font-size:80%; padding-left:10px;">Do not include revenue from non-taxable supplies:</span>
-												</p>
-												<!--ajax answers from Q2 for piping?-->
+												<div class="wb-fieldflow-header">	
+													<p class="wb-fieldflow-label">Do you expect to pass $30,000 CND in total sales or revenue within the next 3 to 12 months?</p>
+													<small>
+														<p>Do not include revenue from non-taxable supplies:</p>
+														<p class="toggle1 hidden">municipal transit services</p> <!--not appearing-->
+														<p class="toggle2 hidden">standard residential services (ex:water distribution)</p> <!--not appearing-->
+														<p class="toggle3 hidden">most health, medical, and dental services performed by licensed physicians or dentists for medical reasons</p>
+														<p class="toggle4 hidden">child care services, where the primary purpose is to provide care and supervision to children 14 years of age or under for periods of less than 24 hours per day</p>
+														<p class="toggle5 hidden">most domestic ferry services</p>
+														<p class="toggle6 hidden">legal aid services</p>
+														<p class="toggle7 hidden">many educational services such as: a) courses supplied by a vocational school leading to a certificate or a diploma that certifies the ability of individuals to practice or perform a trade or a vocation and b) tutoring services made to an individual in a course that follows a curriculum designated by a school authority</p>
+														<p class="toggle8 hidden">music lessons</p>
+														<p class="toggle9 hidden">most services provided by financial institutions such as lending money or operating deposit accounts</p>
+														<p class="toggle10 hidden">the issuance of insurance policies by an insurer and the arranging for the issuance of insurance policies by insurance agents</p>
+														<p class="toggle11 hidden">most property and services provided by charities and public institutions</p>
+														<p class="toggle12 hidden">financial services (such as loan or mortgage)</p>
+														<p class="toggle13 hidden">certain property and services provided by governments, non-profit organizations, municipalities, and other public service bodies including municipal transit services and standard residential services such as water distribution</p>
+													</small>
+												</div>
 												<ul>
 													<li><a href="findout-businessover-en.html">yes</a></li> <!--RESULT-->
-													<li><a href="findout-businessunder-en.html">yes</a></li> <!--RESULT-->
+													<li><a href="findout-businessunder-en.html">no</a></li> <!--RESULT-->
 												</ul>
 											</div>
 										</li>						
